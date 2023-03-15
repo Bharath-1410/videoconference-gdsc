@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-elements{
+    display: flex;
+    padding-left: 30px;
+}
+.list-elements{
+    list-style: none;
+    padding: 10px 10px;
+    color: black;
+   font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 20px;
+   font-weight: 550;
+}
+.intro{
+    margin-top: 9rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.content{
+    width: 35%;
+    padding-left: 16rem;
+}
+.heading{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin:0px;
+}
+#h2{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.join-link{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+.new-meeting{
+    background: #0d6efd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1px solid #0d6efd;
+    width: 35%;
+    border-radius: 5px;
+    font-weight: 550;
+    font-size: 15px;
+}
+.user-link{
+    padding: 13px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    outline: #0d6efd;
+    width: 45%;
+    font-weight: 600;
+}
+.user-link:hover{
+    border: 2px solid #0d6efd;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(113, 109, 109);
+}
+.infot{
+    display: flex;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(120, 116, 116);
+    padding-top: 8px;
+    padding-bottom: 2rem;
+
+}
